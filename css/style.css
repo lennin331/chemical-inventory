@@ -1,0 +1,76 @@
+:root {
+    --primary-color: #0d6efd;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --success-color: #198754;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+.table th {
+    background-color: #f1f3f4;
+    border-top: none;
+}
+
+.hazard-badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.hazard-toxic { background-color: #dc3545; color: white; }
+.hazard-flammable { background-color: #fd7e14; color: white; }
+.hazard-corrosive { background-color: #6f42c1; color: white; }
+.hazard-oxidizing { background-color: #20c997; color: white; }
+
+.expiry-soon { background-color: #fff3cd !important; }
+.expiry-expired { background-color: #f8d7da !important; }
+.quantity-low { background-color: #cfe2ff !important; }
+
+.stat-card {
+    transition: transform 0.2s;
+}
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.sidebar {
+    min-height: calc(100vh - 56px);
+    background-color: #343a40;
+    padding-top: 20px;
+}
+
+.sidebar .nav-link {
+    color: #adb5bd;
+    padding: 10px 15px;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    color: #fff;
+    background-color: #495057;
+}
+
+.search-box {
+    max-width: 400px;
+}
+
+@media (max-width: 768px) {
+    .search-box {
+        max-width: 100%;
+    }
+}
