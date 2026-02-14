@@ -54,7 +54,7 @@ if (!$chemical) {
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand" href="dashboard.php">🧪 Chemical Inventory</a>
+            <a class="navbar-brand" href="dashboard.php">Chemical Inventory</a>
             <div class="navbar-nav ms-auto">
                 <a class="nav-link" href="dashboard.php">Dashboard</a>
                 <a class="nav-link" href="chemicals.php">Chemicals</a>
@@ -176,7 +176,7 @@ if (!$chemical) {
     
     <script>
     function printChemical() {
-        window.location.href = "reports/inventory.php"
+        window.location.href = "print.php"
     }
     </script>
 </body>
